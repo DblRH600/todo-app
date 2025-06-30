@@ -7,7 +7,8 @@ function ThemeToggleButton() {
 
   return (
     <button
-      className="flex items-center gap-2 px-2 py-2 rounded shadow bg-slate-200 dark:bg-slate-700 dark:text-white"
+      className="flex items-center gap-2 px-2 py-2 rounded-lg shadow bg-slate-200 dark:bg-slate-700 dark:text-blue"
+      style={{background: 'none'}}
       onClick={toggleTheme}
     >
       {theme === "light" ? (
